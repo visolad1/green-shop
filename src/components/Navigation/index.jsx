@@ -1,13 +1,20 @@
 import React from 'react'
+import styles from './Navigation.module.scss'
 import { Logo } from '../Logo'
-import { Container } from '../Container'
+import { Container } from '../UI/Container'
+import { NavigationList } from './NavigationList'
+import { NavigationButtons } from './NavigationButtons'
 
 export const Navigation = () => {
     return (
-        <div>
+        <nav className={styles.nav}>
             <Container>
-                <Logo />
+                <div className={styles.wrapper}>
+                    <Logo />
+                    <NavigationList />
+                    <NavigationButtons />
+                </div>
             </Container>
-        </div>
+        </nav>
     )
 }
