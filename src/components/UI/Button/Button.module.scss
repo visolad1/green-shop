@@ -1,5 +1,11 @@
-.btn{
-    color: white;
-    font-weight: bold;
-    padding: 10px 27px;
+.btn {
+  color: white;
+  font-weight: bold;
+  padding: 10px 27px;
+  background-color: #46a358;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #3b944c;
 }

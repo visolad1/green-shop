@@ -1,38 +1,61 @@
 {
   "products": [
-    { 
-        "id": "1", 
-        "title": "Barberton Daisy", 
-        "price": 119.00, 
-        "rating": 4, 
-        "reviews": [
-            {
-                "id": 1,
-                "review": "Lorem ipsum ....sdf.dsf.sf"
-            }
-        ], 
-        "description": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. ",
-        "sizes": [
-            {
-                "id": 1,
-                "size": "s"
-            },
-            {
-                "id": 2,
-                "size": "m"
-            },
-            {
-                "id": 3,
-                "size": "l"
-            },
-            {
-                "id": 4,
-                "size": "xl"
-            }
-        ],
-        "SKU": 1995751877966,
-        "categories": [],
-        "tags": ["Home", "Garden", "Plants"]
+    {
+      "id": "1",
+      "title": "Barberton Daisy",
+      "price": 119.0,
+      "rating": 4,
+      "reviews": [
+        {
+          "id": 1,
+          "review": "Lorem ipsum ....sdf.dsf.sf"
+        }
+      ],
+      "description": "The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. ",
+      "sizes": [
+        {
+          "id": 1,
+          "size": "s"
+        },
+        {
+          "id": 2,
+          "size": "m"
+        },
+        {
+          "id": 3,
+          "size": "l"
+        },
+        {
+          "id": 4,
+          "size": "xl"
+        }
+      ],
+      "SKU": 1995751877966,
+      "categories": [],
+      "tags": ["Home", "Garden", "Plants"]
+    }
+  ],
+  "main_banner": [
+    {
+      "id": 1,
+      "subtitle": "Welcome to GreenShop",
+      "title": "Let’s Make a Better Planet",
+      "description": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+      "image": "https://firebasestorage.googleapis.com/v0/b/green-shop-c2514.appspot.com/o/product_images%2Fproduct_img_1.png?alt=media&token=c41780b5-c4b9-4e36-8f9a-245b8655d3cb"
+    },
+    {
+      "id": 2,
+      "subtitle": "Hello GreenShop",
+      "title": "Let’s Make a Better Planet",
+      "description": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+      "image": "https://firebasestorage.googleapis.com/v0/b/green-shop-c2514.appspot.com/o/product_images%2Fproduct_img_10.png?alt=media&token=82829997-04f9-460e-9c6f-78c4e7a3d67e"
+    },
+    {
+      "id": 3,
+      "subtitle": "Hello GreenShop",
+      "title": "Let’s Make a Better Planet",
+      "description": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+      "image": "https://firebasestorage.googleapis.com/v0/b/green-shop-c2514.appspot.com/o/product_images%2Fproduct_img_2.png?alt=media&token=d962beaa-f358-4958-b0b8-2f6c1859803e"
     }
   ]
 }
