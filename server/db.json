@@ -35,26 +35,80 @@
       "tags": ["Home", "Garden", "Plants"]
     }
   ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "House Plants",
+      "product_count": 33
+    },
+    {
+      "id": 2,
+      "name": "Potter Plants",
+      "product_count": 12
+    },
+    {
+      "id": 3,
+      "name": "Seeds",
+      "product_count": 65
+    },
+    {
+      "id": 4,
+      "name": "Small Plants",
+      "product_count": 39
+    },
+    {
+      "id": 5,
+      "name": "Big Plants",
+      "product_count": 23
+    },
+    {
+      "id": 6,
+      "name": "Succulents",
+      "product_count": 17
+    },
+    {
+      "id": 7,
+      "name": "Terrariums",
+      "product_count": 19
+    },
+    {
+      "id": 8,
+      "name": "Gardening",
+      "product_count": 13
+    },
+    {
+      "id": 9,
+      "name": "Accessories",
+      "product_count": 18
+    }
+  ],
   "main_banner": [
     {
       "id": 1,
       "subtitle": "Welcome to GreenShop",
       "title": "Let’s Make a Better Planet",
-      "description": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+      "description": "GreenShop offers a wide variety of beautiful and affordable plants. Create your own unique urban jungle at home!",
       "image": "https://firebasestorage.googleapis.com/v0/b/green-shop-c2514.appspot.com/o/product_images%2Fproduct_img_1.png?alt=media&token=c41780b5-c4b9-4e36-8f9a-245b8655d3cb"
     },
     {
       "id": 2,
-      "subtitle": "Hello GreenShop",
-      "title": "Let’s Make a Better Planet",
+      "subtitle": "New Arrivals",
+      "title": "Green Up Your Space",
       "description": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
       "image": "https://firebasestorage.googleapis.com/v0/b/green-shop-c2514.appspot.com/o/product_images%2Fproduct_img_10.png?alt=media&token=82829997-04f9-460e-9c6f-78c4e7a3d67e"
     },
     {
       "id": 3,
-      "subtitle": "Hello GreenShop",
-      "title": "Let’s Make a Better Planet",
-      "description": "We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!",
+      "subtitle": "Elevate Your Living",
+      "title": "Elevate Your Living with GreenShop",
+      "description": "GreenShop is an online plant shop offering a wide range of stylish and affordable ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/green-shop-c2514.appspot.com/o/product_images%2Fproduct_img_2.png?alt=media&token=d962beaa-f358-4958-b0b8-2f6c1859803e"
+    },
+    {
+      "id": 4,
+      "subtitle": "Best Sellers",
+      "title": "Go Green with Us",
+      "description": "GreenShop is an online plant shop offering a wide selection of beautiful and affordable plants. Let the greenery into your home!",
       "image": "https://firebasestorage.googleapis.com/v0/b/green-shop-c2514.appspot.com/o/product_images%2Fproduct_img_2.png?alt=media&token=d962beaa-f358-4958-b0b8-2f6c1859803e"
     }
   ]

@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import styles from "./MainBanner.module.scss";
-import AppService from "../../services";
-import { Container } from "../UI/Container";
-import { Button } from "../UI/Button";
+import "./SlickSlider.scss";
+import AppService from "../../../services";
+import { Container } from "../../UI/Container";
+import { Button } from "../../UI/Button";
+import { SlideTitle } from "./SlideTitle";
 
 export const MainBanner = () => {
   const api = new AppService();
@@ -31,7 +33,7 @@ export const MainBanner = () => {
               <div className={styles.slide}>
                 <div className={styles.slide_info}>
                   <div className={styles.slide_subtitle}>{slide.subtitle}</div>
-                  <h2 className={styles.slide_title}>{slide.title}</h2>
+                  <SlideTitle text={slide.title} />
                   <p className={styles.slide_description}>
                     {slide.description}
                   </p>

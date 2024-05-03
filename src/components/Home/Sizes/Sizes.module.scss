@@ -1,0 +1,30 @@
+.wrapper {
+  margin-bottom: 36px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list {
+  width: 100%;
+  padding: 7px 12px;
+}
+
+.list_item {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.list_item_link {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_item_link:hover {
+  color: #46a358;
+}

@@ -11,10 +11,14 @@ export default class AppService {
   }
 
   getAllProducts() {
-    return this.getResource("/products/");
+    return this.getResource("/products");
   }
 
   getMainBannerData() {
-    return this.getResource("/main_banner/");
+    return this.getResource("/main_banner");
+  }
+
+  getCategoriesList() {
+    return this.getResource("/categories");
   }
 }

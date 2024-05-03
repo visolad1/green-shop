@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Navigation.module.scss";
-import { Logo } from "../Logo";
+import { Logo } from "../UI/Logo";
 import { Container } from "../UI/Container";
 import { NavigationList } from "./NavigationList";
 import { NavigationButtons } from "./NavigationButtons";
