@@ -1,0 +1,38 @@
+.wrapper {
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  gap: 37px;
+}
+
+.filters_item {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  color: #46a358;
+}
+
+.sort {
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #3d3d3d;
+}
+
+.select {
+  border: none;
+}
